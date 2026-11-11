@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fixing Your Feed</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Learn how TikTok, Instagram, and YouTube algorithms decide what you see, then reset your feed on purpose.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap topbar">
+    <a class="brand" href="index.html">Fixing Your Feed</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" aria-current="page">How Algorithms Work</a>
+      <a href="reset.html">Reset Guide</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </div>
+  <div class="wrap hero">
+    <h1>Fixing Your Feed</h1>
+    <p>Understand your algorithm. Reset your feed on purpose.</p>
+  </div>
+</header>
+
+<main>
+  <section class="band">
+    <div class="wrap question">
+      <div>
+        <span class="eyebrow">The big question</span>
+        <h2>How do social media algorithms decide what you see?</h2>
+      </div>
+      <div>
+        <p class="lede">Your feed isn't in time order. Each app ranks posts by what it predicts you'll watch, like, or share, and it learns from every swipe. Here's how that works, platform by platform, and what the research says.</p>
+        <div class="row">
+          <a class="btn btn-dark" href="#how">Start reading</a>
+          <a class="btn btn-light" href="#platforms">Jump to your app</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="why">
+    <h2 id="why">Why this matters</h2>
+    <div class="grid">
+      <div class="stat t-violet"><strong>~8 in 10</strong><span>U.S. adults ages 18–29 use Instagram.</span><span class="src">Pew Research Center, 2025</span></div>
+      <div class="stat t-mint"><strong>~1 in 2</strong><span>18- to 29-year-olds open TikTok at least once a day.</span><span class="src">Pew Research Center, 2025</span></div>
+      <div class="stat t-sun"><strong>&lt; 2 hrs</strong><span>How fast TikTok learned new accounts' interests in a test with 100 bots.</span><span class="src">Wall Street Journal, 2021</span></div>
+      <div class="stat t-night"><strong>53%</strong><span>of U.S. Facebook users didn't understand why posts appear in their feed.</span><span class="src">Pew Research Center, 2018</span></div>
+    </div>
+    <p class="lede">Most young adults use these apps every day, the apps learn fast, and many users don't know what they're teaching them. Knowing the signals is the first step to choosing your feed instead of drifting into it.</p>
+  </section>
+
+  <section class="wrap section" id="how" aria-labelledby="how-h">
+    <h2 id="how-h">How a feed gets built</h2>
+    <div class="grid">
+      <div class="tile" style="background: var(--soft)"><span class="eyebrow" style="color: var(--ink-3)">Old way</span><b>Chronological</b><span style="color: var(--ink-2)">Newest posts first, only from accounts you follow.</span></div>
+      <div class="tile compare-new"><span class="eyebrow" style="color: #DCD3FF">Now</span><b>Ranked</b><span>Posts ordered by predicted interest, from anyone on the app.</span></div>
+    </div>
+    <ol class="grid steps">
+      <li><span class="num" style="background: var(--violet)">1</span><b>Collect</b><span>The app logs what you watch, like, share, search, and skip, plus how long you pause.</span></li>
+      <li><span class="num" style="background: #0E8A5F">2</span><b>Filter</b><span>It narrows millions of posts to a pool you might care about.</span></li>
+      <li><span class="num" style="background: #B7791F">3</span><b>Rank</b><span>Each post gets a score for how likely you are to engage with it.</span></li>
+      <li><span class="num" style="background: var(--ink)">4</span><b>Learn</b><span>Your reaction feeds back in, and the next feed adjusts.</span></li>
+    </ol>
+  </section>
+
+  <section class="wrap section" aria-labelledby="types">
+    <h2 id="types">Three types of algorithms</h2>
+    <p class="lede">Most apps mix all three, and machine learning keeps tuning them as you scroll.</p>
+    <div class="grid">
+      <div class="tile t-violet"><b style="color: #36209A">Content-based</b><span>Watched three cooking videos? You get more cooking videos.</span></div>
+      <div class="tile t-mint"><b style="color: var(--mint-ink)">Collaborative filtering</b><span>People with tastes like yours liked it, so you see it too.</span></div>
+      <div class="tile t-sun"><b style="color: var(--sun-ink)">Context-aware</b><span>Uses context like your location, language, and device.</span></div>
+    </div>
+  </section>
+
+  <section class="wrap section" id="platforms" aria-labelledby="plat-h">
+    <h2 id="plat-h">Platform by platform</h2>
+    <p class="lede">Straight from each app's official explainer.</p>
+    <div class="tabs" role="tablist" aria-label="Choose a platform">
+      <button class="tab" role="tab" id="tab-tiktok" data-platform="tiktok" aria-selected="true" aria-controls="platform-panel">TikTok</button>
+      <button class="tab" role="tab" id="tab-instagram" data-platform="instagram" aria-selected="false" aria-controls="platform-panel">Instagram</button>
+      <button class="tab" role="tab" id="tab-youtube" data-platform="youtube" aria-selected="false" aria-controls="platform-panel">YouTube</button>
+    </div>
+    <div class="platform" id="platform-panel" role="tabpanel" aria-labelledby="tab-tiktok"></div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="res-h">
+    <h2 id="res-h">What researchers found</h2>
+    <div class="grid wide">
+      <article class="card">
+        <span class="eyebrow" style="color: var(--sun-ink)">Wall Street Journal · 2021</span>
+        <h3>Pausing is a signal, even if you never tap like</h3>
+        <p>Reporters ran 100 bot accounts on TikTok. The bots never searched or liked; they only lingered on or rewatched certain videos. TikTok figured out their interests in under two hours.</p>
+        <div class="callout t-sun"><strong>93%</strong><span>of videos shown to one bot that lingered on sad videos were about sadness and depression.</span></div>
+      </article>
+      <article class="card dark">
+        <span class="eyebrow" style="color: var(--link-dark)">Mozilla Foundation · 2022</span>
+        <h3>Some buttons work better than others</h3>
+        <p>A study of 22,722 YouTube volunteers measured how many unwanted recommendations each control prevented.</p>
+        <div class="bar-row"><div class="lab"><span>Don't recommend channel</span><strong style="color: var(--mint)">43%</strong></div><div class="bar"><i style="width: 43%; background: var(--mint)"></i></div></div>
+        <div class="bar-row"><div class="lab"><span>Not interested</span><strong style="color: #FFE27A">11%</strong></div><div class="bar"><i style="width: 11%; background: #FFE27A"></i></div></div>
+      </article>
+      <article class="card">
+        <span class="eyebrow" style="color: var(--violet-ink)">U.S. Surgeon General · 2023</span>
+        <h3>Time on the feed adds up</h3>
+        <p>The Surgeon General's advisory found that adolescents who spend more than 3 hours a day on social media face double the risk of depression and anxiety symptoms.</p>
+        <div class="callout t-violet"><strong>2×</strong><span>the risk at 3+ hours a day. The finding is about teens, but it's a reason anyone should notice where their scrolling time goes.</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="stake-h">
+    <h2 id="stake-h">What's at stake</h2>
+    <div class="grid">
+      <div class="stake"><b>Privacy</b><span>Ranking runs on your data: watch history, searches, location, and who you follow.</span></div>
+      <div class="stake" style="border-color: #0E8A5F"><b>Narrow feeds</b><span>More of what you lingered on can crowd out everything else, as the WSJ test showed.</span></div>
+      <div class="stake" style="border-color: #B7791F"><b>Visibility</b><span>Algorithms decide which creators, news, and ideas get seen at all.</span></div>
+      <div class="stake" style="border-color: var(--ink)"><b>Your time</b><span>Feeds are built to keep you watching, so a feed you chose is easier to put down.</span></div>
+    </div>
+  </section>
+
+  <section class="wrap section faq" aria-labelledby="faq-h">
+    <h2 id="faq-h">FAQ</h2>
+    <details open><summary>Can I reset my feed completely?</summary><p>Close to it. TikTok's Refresh your For You feed and Instagram's Reset suggested content both start your recommendations over. On YouTube, clearing watch history does the most. What you do afterward rebuilds the feed, so habits matter.</p></details>
+    <details><summary>Does chronological order still exist?</summary><p>Sometimes. Instagram lets you switch Feed to only Following or Favorites, shown newest first.</p></details>
+    <details><summary>What counts more, likes or watch time?</summary><p>Watch time is a big one. TikTok says finishing a longer video is a strong interest signal, and the WSJ's bots shaped their feeds without liking anything.</p></details>
+    <details><summary>Does tapping "Not interested" actually work?</summary><p>A little. Mozilla found it stopped only 11% of unwanted YouTube recommendations, while Don't recommend channel stopped 43%. Blocking a source beats flagging single posts.</p></details>
+  </section>
+
+  <section class="wrap section" aria-labelledby="next-h">
+    <span class="eyebrow" style="color: var(--violet-ink)">What's next</span>
+    <h2 id="next-h">Now put it to work</h2>
+    <div class="grid wide">
+      <a class="next violet" href="reset.html">
+        <span class="eyebrow">Reset guide · 3 apps</span>
+        <strong class="title">Clean up your feed</strong>
+        <span>Step-by-step checklists for TikTok, Instagram, and YouTube.</span>
+        <span class="btn btn-mint">Start the reset →</span>
+      </a>
+      <a class="next mint" href="quiz.html">
+        <span class="eyebrow">Quiz · 6 questions</span>
+        <strong class="title">Which habit shapes your feed most?</strong>
+        <span>Find out what your feed is learning from you, backed by research.</span>
+        <span class="btn btn-dark">Take the quiz →</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="col">
+      <b class="fbrand">Fixing Your Feed</b>
+      <a href="index.html">How Algorithms Work</a>
+      <a href="reset.html">Reset Guide</a>
+      <a href="quiz.html">Quiz</a>
+      <span style="margin-top: 8px; font-size: 12px">© 2026 Fixing Your Feed · A student project</span>
+    </div>
+    <div class="col">
+      <b>Sources</b>
+      <a class="src" href="https://www.pewresearch.org/internet/2025/11/20/americans-social-media-use-2025/">Pew Research Center: Americans' Social Media Use 2025</a>
+      <a class="src" href="https://www.pewresearch.org/short-reads/2018/09/05/many-facebook-users-dont-understand-how-the-sites-news-feed-works/">Pew Research Center: Facebook news feed survey (2018)</a>
+      <a class="src" href="https://tubefilter.com/2021/07/21/tiktok-recommendation-algorithm-wall-street-journal-guillaume-chaslot/">Wall Street Journal TikTok investigation (via Tubefilter)</a>
+      <a class="src" href="https://www.mozillafoundation.org/blog/mozilla-investigation-youtubes-dislike-button-other-user-controls-largely-fail-to-stop-unwanted-recommendations/">Mozilla Foundation: Does This Button Work?</a>
+      <a class="src" href="https://www.hhs.gov/surgeongeneral/reports-and-publications/youth-mental-health/social-media">U.S. Surgeon General: Social Media and Youth Mental Health</a>
+      <a class="src" href="https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/">TikTok: How TikTok recommends videos #ForYou</a>
+      <a class="src" href="https://about.instagram.com/blog/announcements/instagram-ranking-explained">Instagram Ranking Explained</a>
+      <a class="src" href="https://support.google.com/youtube/answer/16089387">YouTube Help: How recommendations work</a>
+      <a class="src" href="https://www.internetjustsociety.org/algorithms-in-social-media-platforms">Internet Justice Society: Algorithms in social media</a>
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

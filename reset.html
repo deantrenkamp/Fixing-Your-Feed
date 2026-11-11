@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reset Guide · Fixing Your Feed</title>
+<meta name="description" content="Step-by-step checklists to reset your TikTok, Instagram, and YouTube feeds, with the evidence behind each step.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap topbar">
+    <a class="brand" href="index.html">Fixing Your Feed</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">How Algorithms Work</a>
+      <a href="reset.html" aria-current="page">Reset Guide</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </div>
+  <div class="wrap hero small">
+    <span class="eyebrow">Reset guide</span>
+    <h1>Clean up your feed</h1>
+    <p>Pick your app and check off each step. Every step uses a real setting and explains why it works.</p>
+  </div>
+</header>
+
+<main>
+  <section class="wrap section" aria-label="Checklist">
+    <div class="app-tabs" role="tablist" aria-label="Choose your app">
+      <button class="app-tab" role="tab" data-app="tiktok" aria-selected="true" aria-controls="checklist">TikTok<small data-count="tiktok">0 of 6 done</small></button>
+      <button class="app-tab" role="tab" data-app="instagram" aria-selected="false" aria-controls="checklist">Instagram<small data-count="instagram">0 of 6 done</small></button>
+      <button class="app-tab" role="tab" data-app="youtube" aria-selected="false" aria-controls="checklist">YouTube<small data-count="youtube">0 of 6 done</small></button>
+    </div>
+
+    <div class="guide">
+      <aside>
+        <div class="progress">
+          <h2 id="progress-title">Your TikTok progress</h2>
+          <div class="quiz-meta" style="color: var(--ink-2)"><span>Steps done</span><strong id="progress-count" style="color: var(--ink)">0 of 6</strong></div>
+          <div class="bar light" role="progressbar" aria-labelledby="progress-title" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-bar"><i style="width: 0%"></i></div>
+          <div class="done-msg" id="done-msg" hidden><strong>Nice work.</strong> This feed is reset. Keep the habits below so it stays that way.</div>
+          <span class="small">Your checkmarks save on this device, so you can come back and finish later.</span>
+          <button class="btn btn-light" id="clear-btn" type="button" style="align-self: flex-start; font-size: 13px; min-height: 44px; color: var(--violet-ink); border-color: var(--violet-line)">Clear this checklist</button>
+        </div>
+        <div class="card">
+          <b style="font-size: 15px">Before you start</b>
+          <p>Do the steps in order. The first one or two do the most; the rest keep your feed from drifting back.</p>
+          <span class="small">Menu names can change when apps update. If you can't find a setting, search for it in the app's settings.</span>
+        </div>
+      </aside>
+      <ol class="checklist" id="checklist" role="tabpanel"></ol>
+    </div>
+  </section>
+
+  <section class="wrap section" aria-labelledby="clean-h">
+    <h2 id="clean-h">Keep it clean</h2>
+    <p class="lede">A reset fades if your habits don't change. These three matter on every app.</p>
+    <div class="grid">
+      <div class="tile t-sun"><b style="color: var(--sun-body)">Swipe past fast</b><span>Pausing counts as interest. The WSJ's bots trained TikTok just by lingering.</span></div>
+      <div class="tile t-mint"><b style="color: var(--mint-ink)">Block sources, not posts</b><span>Blocking a channel stopped 43% of unwanted YouTube picks; flagging one video stopped 11% (Mozilla).</span></div>
+      <div class="tile t-violet"><b style="color: #36209A">Check in monthly</b><span>Feeds keep learning. Revisit your topics, follows, and history once a month.</span></div>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <a class="next mint" href="quiz.html">
+      <span class="eyebrow">Next · Quiz</span>
+      <strong class="title">Which habit shapes your feed most?</strong>
+      <span class="btn btn-dark">Take the quiz →</span>
+    </a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="col">
+      <b class="fbrand">Fixing Your Feed</b>
+      <a href="index.html">How Algorithms Work</a>
+      <a href="reset.html">Reset Guide</a>
+      <a href="quiz.html">Quiz</a>
+      <span style="margin-top: 8px; font-size: 12px">© 2026 Fixing Your Feed · A student project</span>
+    </div>
+    <div class="col">
+      <b>Sources</b>
+      <a class="src" href="https://newsroom.tiktok.com/en-ie/safeguarding-recommendations-update">TikTok: Refresh your For You feed (2023)</a>
+      <a class="src" href="https://newsroom.tiktok.com/tiktoks-new-features-to-help-you-control-your-scroll">TikTok: Manage Topics and keyword filters (2025)</a>
+      <a class="src" href="https://newsroom.tiktok.com/en-us/how-tiktok-recommends-videos-for-you/">TikTok: How TikTok recommends videos #ForYou</a>
+      <a class="src" href="https://about.instagram.com/blog/announcements/reset-instagram-content-suggestions">Instagram: Reset content suggestions (2024)</a>
+      <a class="src" href="https://about.instagram.com/blog/announcements/instagram-ranking-explained">Instagram Ranking Explained</a>
+      <a class="src" href="https://support.google.com/youtube/answer/6342839">YouTube Help: Manage your recommendations</a>
+      <a class="src" href="https://support.google.com/youtube/answer/16089387">YouTube Help: How recommendations work</a>
+      <a class="src" href="https://www.mozillafoundation.org/blog/mozilla-investigation-youtubes-dislike-button-other-user-controls-largely-fail-to-stop-unwanted-recommendations/">Mozilla Foundation: Does This Button Work?</a>
+      <a class="src" href="https://tubefilter.com/2021/07/21/tiktok-recommendation-algorithm-wall-street-journal-guillaume-chaslot/">Wall Street Journal TikTok investigation (via Tubefilter)</a>
+    </div>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
