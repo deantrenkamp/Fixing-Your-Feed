@@ -120,27 +120,27 @@
   /* ---------- Reset Guide: checklists ---------- */
   var GUIDES = {
     tiktok: { name: 'TikTok', steps: [
-      { t: 'Refresh your For You feed', top: true, how: 'Profile → menu → Settings and privacy → Content preferences → Refresh your For You feed.', why: 'TikTok says this shows your feed “as if you just signed up,” then rebuilds it from your new activity.', src: 'TikTok, 2023' },
-      { t: 'Turn topics up or down', how: 'Content preferences → Manage topics. Slide topics you want less of toward “less.”', why: 'Manage Topics changes how often a topic appears without hiding it completely.', src: 'TikTok, 2025' },
-      { t: 'Add keyword filters', how: 'Content preferences → Filter video keywords. Add words for content you never want to see.', why: 'You can filter up to 200 keywords, and TikTok also catches similar words and slang.', src: 'TikTok, 2025' },
-      { t: 'Long-press → Not interested', how: 'When an unwanted video plays, long-press it and tap Not interested. You can also hide a creator or a sound.', why: 'TikTok lists Not interested and hiding creators or sounds as direct ways to steer the feed.', src: 'TikTok, 2020' },
+      { t: 'Refresh your For You feed', top: true, how: 'Profile → menu (☰) → Settings and privacy → Content preferences → Refresh your For You feed → Continue → Refresh.', why: 'TikTok says this shows your feed “as if you just signed up,” then rebuilds it from your new activity.', src: 'TikTok, 2023' },
+      { t: 'Turn topics up or down', how: 'Settings and privacy → Content preferences → Manage topics. Slide topics you want less of toward “less.”', why: 'Manage Topics changes how often a topic appears without hiding it completely.', src: 'TikTok, 2025' },
+      { t: 'Add keyword filters', how: 'Settings and privacy → Content preferences → Filter keywords. Add words for content you never want to see.', why: 'You can filter up to 200 keywords, and TikTok also catches similar words and slang.', src: 'TikTok, 2025' },
+      { t: 'Press and hold → Not interested', how: 'When an unwanted video plays, press and hold it, then tap Not interested.', why: 'TikTok lists Not interested as a direct way to tell the feed what you don’t want.', src: 'TikTok, 2020' },
       { t: 'Unfollow accounts you always skip', how: 'Profile → Following. Remove accounts you scroll past.', why: 'Follows are one of the interactions TikTok uses to recommend videos.', src: 'TikTok, 2020' },
       { t: 'Swipe past what you don’t want', how: 'Don’t let unwanted videos play to the end. Swipe right away.', why: 'Finishing a video is a strong interest signal, and lingering alone trained the WSJ’s bots.', src: 'TikTok 2020; WSJ 2021' }
     ] },
     instagram: { name: 'Instagram', steps: [
-      { t: 'Reset suggested content', top: true, how: 'Profile → menu → Settings → Content preferences → Reset suggested content.', why: 'Clears your recommendations in Explore, Reels, and Feed so they start over.', src: 'Instagram, 2024' },
+      { t: 'Reset suggested content', top: true, how: 'Profile → menu (☰) → under “What you see,” Content preferences → Reset suggested content → Next.', why: 'Clears your recommendations in Explore, Reels, and Feed so they start over.', src: 'Instagram, 2024' },
       { t: 'Review who you follow', how: 'During the reset, Instagram shows the accounts you follow. Unfollow the ones you no longer want.', why: 'Your history with an account is a top ranking signal in Feed, Stories, and Reels.', src: 'Instagram, 2023' },
-      { t: 'Snooze suggested posts', how: 'On a suggested post in Feed, tap ⋯ → Snooze suggested posts in Feed.', why: 'Pauses suggested posts from accounts you don’t follow for 30 days.', src: 'Instagram, 2023' },
-      { t: 'Set up Favorites', how: 'Settings → Favorites. Add the accounts you care about, then use the Following or Favorites feed.', why: 'Favorites show higher in Feed, and you can filter Feed to only those accounts.', src: 'Instagram, 2023' },
+      { t: 'Snooze suggested posts', how: 'On a suggested post in Home, tap the X → Snooze all suggested posts in feed for 30 days.', why: 'Pauses suggested posts from accounts you don’t follow for 30 days.', src: 'Instagram, 2023' },
+      { t: 'Set up Favorites', how: 'Tap the Instagram logo at the top left → Favorites, and add up to 50 accounts. Or tap ⋯ on a post → Add to favorites.', why: 'Favorites show higher in Feed, and you can filter Feed to only those accounts.', src: 'Instagram, 2023' },
       { t: 'Tap Not interested on suggestions', how: 'On a suggested post or Reel, tap ⋯ → Not interested.', why: 'Instagram shows less of that type of recommended content.', src: 'Instagram, 2023' },
-      { t: 'Check sensitive content settings', how: 'Settings → Content preferences → Sensitive content.', why: 'Controls how much sensitive content you see from accounts you don’t follow.', src: 'Instagram, 2023' }
+      { t: 'Check sensitive content settings', how: 'Profile → menu (☰) → Content preferences → Sensitive content, then choose Less.', why: 'Controls how much sensitive content you see from accounts you don’t follow.', src: 'Instagram, 2023' }
     ] },
     youtube: { name: 'YouTube', steps: [
-      { t: 'Pause or clear watch history', top: true, how: 'You → History → Manage all history. Delete it, or turn it off.', why: 'Watch history is one of the main signals YouTube uses to recommend videos.', src: 'YouTube Help' },
-      { t: 'Clear search history', how: 'In the same Manage all history page, delete your past searches.', why: 'YouTube lists search history as a recommendation signal.', src: 'YouTube Help' },
-      { t: 'Don’t recommend channel', how: 'On Home, tap ⋮ next to a video from a channel you don’t want → Don’t recommend channel.', why: 'The strongest control Mozilla tested: it stopped 43% of unwanted recommendations.', src: 'Mozilla, 2022' },
-      { t: 'Remove single videos from history', how: 'You → History. Tap ⋮ on a video → Remove from watch history.', why: 'Removes one-off videos so they stop shaping your recommendations.', src: 'YouTube Help' },
-      { t: 'Tap Not interested', how: 'Tap ⋮ next to a video → Not interested, then Tell us why.', why: 'It helps, but Mozilla found it stopped only 11% of unwanted recommendations, so pair it with step 3.', src: 'Mozilla, 2022' },
+      { t: 'Pause or clear watch history', top: true, how: 'Profile picture → Settings → Manage all history. Tap Delete to clear it, or open Controls and turn history off.', why: 'Watch history is one of the main signals YouTube uses to recommend videos.', src: 'YouTube Help' },
+      { t: 'Clear search history', how: 'On the same Manage all history page, deleting also clears searches from that time range. Tap the X beside one search to remove just that one.', why: 'YouTube lists search history as a recommendation signal.', src: 'YouTube Help' },
+      { t: 'Don’t recommend channel', how: 'On Home, tap More (⋮) next to a video from that channel → Don’t recommend channel.', why: 'The strongest control Mozilla tested: it stopped 43% of unwanted recommendations.', src: 'Mozilla, 2022' },
+      { t: 'Remove single videos from history', how: 'You → History. Tap More (⋮) next to a video → Remove from watch history.', why: 'Removes one-off videos so they stop shaping your recommendations.', src: 'YouTube Help' },
+      { t: 'Tap Not interested', how: 'Tap More (⋮) next to a video → Not interested, then Tell us why.', why: 'It helps, but Mozilla found it stopped only 11% of unwanted recommendations, so pair it with step 3.', src: 'Mozilla, 2022' },
       { t: 'Answer satisfaction surveys', how: 'When YouTube asks how you liked a video, answer honestly.', why: 'Surveys tell YouTube whether you actually liked a video, not just how long you watched.', src: 'YouTube Help' }
     ] }
   };
@@ -234,9 +234,9 @@
       text: 'How often do you like, comment on, save, or share posts?',
       evidence: 'Likes, comments, shares, and saves are listed signals on both TikTok and Instagram.',
       src: 'TikTok 2020; Instagram 2023',
-      result: 'Your taps are direct votes. The more you engage with a topic, the more of it the app ranks first.',
-      fixTitle: 'Vote on purpose',
-      fix: 'Save likes and shares for content you want more of. Engaging with outrage, even to argue, still counts as interest.' },
+      result: 'Likes, comments, and shares are some of the clearest signals you send. The more you engage with a topic, the more of it the app puts at the top of your feed.',
+      fixTitle: 'Only like what you want more of',
+      fix: 'Every like, comment, and share tells the app to show you more of that topic. Skip engaging with posts you don\u2019t want to see again, even to argue in the comments.' },
     { habit: 'Searching', weight: 2,
       text: 'How often do you search for topics or creators inside the app?',
       evidence: 'YouTube lists search history as a recommendation signal alongside watch history.',
